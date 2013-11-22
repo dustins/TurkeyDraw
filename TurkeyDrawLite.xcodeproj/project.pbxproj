@@ -16,7 +16,6 @@
 		5E0BB6C6183EA95500225917 /* NGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E0BB6C5183EA95500225917 /* NGAppDelegate.m */; };
 		5E0BB6C9183EA95500225917 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E0BB6C7183EA95500225917 /* Main.storyboard */; };
 		5E0BB6CC183EA95500225917 /* NGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E0BB6CB183EA95500225917 /* NGViewController.m */; };
-		5E0BB6CF183EA95500225917 /* NGMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E0BB6CE183EA95500225917 /* NGMyScene.m */; };
 		5E0BB6D1183EA95500225917 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E0BB6D0183EA95500225917 /* Spaceship.png */; };
 		5E0BB6D3183EA95500225917 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E0BB6D2183EA95500225917 /* Images.xcassets */; };
 		5E0BB6DA183EA95500225917 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E0BB6D9183EA95500225917 /* XCTest.framework */; };
@@ -24,6 +23,8 @@
 		5E0BB6DC183EA95600225917 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E0BB6B7183EA95500225917 /* UIKit.framework */; };
 		5E0BB6E4183EA95600225917 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5E0BB6E2183EA95600225917 /* InfoPlist.strings */; };
 		5E0BB6E6183EA95600225917 /* TurkeyDrawLiteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E0BB6E5183EA95600225917 /* TurkeyDrawLiteTests.m */; };
+		5E0BB6F2183EA97500225917 /* NGMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E0BB6EF183EA97500225917 /* NGMyScene.m */; };
+		5E0BB6F3183EA97500225917 /* turkey.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E0BB6F1183EA97500225917 /* turkey.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,8 +52,6 @@
 		5E0BB6C8183EA95500225917 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5E0BB6CA183EA95500225917 /* NGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NGViewController.h; sourceTree = "<group>"; };
 		5E0BB6CB183EA95500225917 /* NGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NGViewController.m; sourceTree = "<group>"; };
-		5E0BB6CD183EA95500225917 /* NGMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NGMyScene.h; sourceTree = "<group>"; };
-		5E0BB6CE183EA95500225917 /* NGMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NGMyScene.m; sourceTree = "<group>"; };
 		5E0BB6D0183EA95500225917 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		5E0BB6D2183EA95500225917 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5E0BB6D8183EA95500225917 /* TurkeyDrawLiteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TurkeyDrawLiteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,6 +59,9 @@
 		5E0BB6E1183EA95600225917 /* TurkeyDrawLiteTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TurkeyDrawLiteTests-Info.plist"; sourceTree = "<group>"; };
 		5E0BB6E3183EA95600225917 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5E0BB6E5183EA95600225917 /* TurkeyDrawLiteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TurkeyDrawLiteTests.m; sourceTree = "<group>"; };
+		5E0BB6EF183EA97500225917 /* NGMyScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGMyScene.m; sourceTree = "<group>"; };
+		5E0BB6F0183EA97500225917 /* NGMyScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGMyScene.h; sourceTree = "<group>"; };
+		5E0BB6F1183EA97500225917 /* turkey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turkey.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,10 +126,11 @@
 				5E0BB6C4183EA95500225917 /* NGAppDelegate.h */,
 				5E0BB6C5183EA95500225917 /* NGAppDelegate.m */,
 				5E0BB6C7183EA95500225917 /* Main.storyboard */,
+				5E0BB6EF183EA97500225917 /* NGMyScene.m */,
+				5E0BB6F0183EA97500225917 /* NGMyScene.h */,
+				5E0BB6F1183EA97500225917 /* turkey.png */,
 				5E0BB6CA183EA95500225917 /* NGViewController.h */,
 				5E0BB6CB183EA95500225917 /* NGViewController.m */,
-				5E0BB6CD183EA95500225917 /* NGMyScene.h */,
-				5E0BB6CE183EA95500225917 /* NGMyScene.m */,
 				5E0BB6D0183EA95500225917 /* Spaceship.png */,
 				5E0BB6D2183EA95500225917 /* Images.xcassets */,
 				5E0BB6BC183EA95500225917 /* Supporting Files */,
@@ -242,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E0BB6C0183EA95500225917 /* InfoPlist.strings in Resources */,
+				5E0BB6F3183EA97500225917 /* turkey.png in Resources */,
 				5E0BB6D3183EA95500225917 /* Images.xcassets in Resources */,
 				5E0BB6D1183EA95500225917 /* Spaceship.png in Resources */,
 				5E0BB6C9183EA95500225917 /* Main.storyboard in Resources */,
@@ -266,7 +270,7 @@
 				5E0BB6CC183EA95500225917 /* NGViewController.m in Sources */,
 				5E0BB6C2183EA95500225917 /* main.m in Sources */,
 				5E0BB6C6183EA95500225917 /* NGAppDelegate.m in Sources */,
-				5E0BB6CF183EA95500225917 /* NGMyScene.m in Sources */,
+				5E0BB6F2183EA97500225917 /* NGMyScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
